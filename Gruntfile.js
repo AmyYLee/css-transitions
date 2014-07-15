@@ -195,7 +195,9 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.webp',
                         '{,*/}*.html',
-                        'styles/fonts/{,*/}*.*'
+                        'styles/fonts/{,*/}*.*',
+                        'images',
+                        'README.md'
                     ]
                 },{
                   expand: true,
@@ -228,7 +230,7 @@ module.exports = function (grunt) {
           },
           pages: {
             options: {
-              remote: '!!! PASTE YOUR GITHUB REPO URL HERE',
+              remote: 'https://github.com/bitmakerlabs/css-transitions',
               branch: 'gh-pages'
             }
           },
