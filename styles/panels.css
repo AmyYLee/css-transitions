@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+html, body, .panel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.panel {
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  color: #fff;
+  text-align: center; }
+  .panel.active {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+
+.panel-1 {
+  background-color: #ef8f8f; }
+
+.panel-2 {
+  background-color: #efd78f; }
+
+.panel-3 {
+  background-color: #bfef8f; }
+
+.panel-4 {
+  background-color: #8fefa7; }
