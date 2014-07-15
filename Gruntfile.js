@@ -230,7 +230,7 @@ module.exports = function (grunt) {
           },
           pages: {
             options: {
-              remote: 'https://github.com/bitmakerlabs/css-transitions',
+              remote: 'git@github.com:bitmakerlabs/css-transitions.git',
               branch: 'gh-pages'
             }
           },
@@ -319,6 +319,9 @@ module.exports = function (grunt) {
         'copy:dist',
         'useminPrepare', //
         'modernizr', //
+        'concat',
+        'cssmin',
+        'uglify',
         'usemin'
     ]);
 
