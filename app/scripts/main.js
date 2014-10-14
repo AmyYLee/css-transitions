@@ -6,5 +6,10 @@
       eventObject.preventDefault();
       $(this).toggleClass('is-animated');
     });
+
+    $('#nav-toggle').on('click', function(eventObject) {
+      eventObject.preventDefault();
+      $(this).toggleClass('active');
+    });
   });
 })(jQuery);
