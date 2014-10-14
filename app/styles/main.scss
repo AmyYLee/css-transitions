@@ -47,6 +47,10 @@ body {
   background-color: #FF6347; // tomato (obviously!)
   top: 10%;
   left: 10%;
+
+  &.is-animated {
+    left: 80%;
+  }
 }
 
 .shape-circle {
