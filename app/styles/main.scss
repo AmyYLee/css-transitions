@@ -58,6 +58,11 @@ body {
   background-color: #6495ED; // cornflowerblue
   bottom: 10%;
   left: 10%;
+
+  &.is-animated {
+    bottom: 60%;
+    background-color: orange;
+  }
 }
 
 
