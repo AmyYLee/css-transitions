@@ -54,6 +54,8 @@ body {
 }
 
 .shape-circle {
+  @include transition(bottom 0.5s linear 0.5s, background-color 1s linear);
+
   border-radius: 50%;
   background-color: #6495ED; // cornflowerblue
   bottom: 10%;
