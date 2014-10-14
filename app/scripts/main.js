@@ -10,6 +10,7 @@
     $('#nav-toggle').on('click', function(eventObject) {
       eventObject.preventDefault();
       $(this).toggleClass('active');
+      $('#menu').toggleClass('active');
     });
   });
 })(jQuery);
